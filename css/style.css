@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#bgd{
+    position: fixed;
+    width: 100%;
+}
+
+#videobgd{
+    position: fixed;
+    width: 100%;
+}
+
+#sider{
+    width: 100px;
+    height: 990px;
+    display: block;
+    text-align: center;
+    background-color:black;
+    opacity: 90%;
+    position: fixed;
+}
+
+#menusider{
+    width: 100px;
+    height: 990px;
+    display: block;
+    text-align: center;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+
+#menusider a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.l1, .l2, .l3, .l4{
+    height: 50px;
+    position: relative;
+    padding-top: 50px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+#sider li a{
+    text-decoration: none;
+    color: white;
+}
+
+.l11, .l22, .l33, .l44{
+    height: 50px;
+    position: relative;
+    padding-top: 50px;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+#title{
+    height: 385px;
+    padding-top: 200px;
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+#menutitle{
+    height: 385px;
+    padding-top: 200px;
+    background-color: white;;
+    border-bottom: 2px solid black;
+}
+
+#menu{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 5px;
+}
+
+#logo{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -10px;
+}
+
+#search{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+#music{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -16px;
+}
+
+#qa{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -25px;
+}
+
+#whiteBlock{
+    width: 800px;
+    height: 990px;
+    position: absolute;
+    background-color: white;
+    margin-left: 1000px;
+}
+
+#slogan{
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+#option{
+    height: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#next{
+    height: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: normal;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#option:hover{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 50%, #c2e9fb 100%);
+}
+
+#option a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#next a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#help{
+    font-size: 26px;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+#headbar{
+    width: 100%;
+    margin-top: 0;
+    margin-left: 100px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+#headbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 0px;
+    padding: 0;
+}
+
+#headbar li a{
+    display: block;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+#headbar li{
+    height: 100px;
+    width: 421px;
+    float: left;    
+    border-right: 2px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+#dropbtn{
+    cursor: pointer;
+    background-color: white;
+}
+
+#dropdown{
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 400px;
+    width: 421px;
+    position: absolute;
+    display: inline-block;
+    background-color: white;
+
+}
+
+#dropdown li{
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 33px;
+    list-style-type: none;
+}
+
+#dropdown a{
+    font-size: 26px;
+    text-decoration: none;
+    display: block;
+    color: inherit
+}
+
+#dropdown li:hover{
+    background-color: black;
+    color: white;
+}
+
+#d1{
+    color: black;
+}
+
+#d2{
+    margin-left: -20px;
+    color: black;
+}
+
+#d3{
+    margin-left: -25px;  
+    color: black;
+}
+
+#d4{
+    margin-left: 16px;  
+    color: black;
+}
+
+#forest{
+    position: fixed;
+    width: 50%;
+    height: 1500px;
+}
+
+#ocean{
+    position: absolute;
+    width: 50%;
+    height: 1500px;
+}
+
+#oceanp{
+    padding-top: 1000px;
+}
+
+#musicright{
+    width: 50%;
+    position: absolute;
+    padding-left: 50%;
+}
+
+#musictitle{
+    margin-left: 398px;
+    margin-right: 398px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    font-size: 36px;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+#musiclistwidth{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#musiclistwidth2{
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#musicright h2{
+    font-size: 26px;
+    font-weight: normal;
+}
+
+#musicright p{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 350;
+}
+
+#musicright h3{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+#playbtn{
+    height: 50px;
+    padding-left: 280px;
+    margin-top: 40px;
+    border: 2px solid black;
+    border-bottom: 6px solid rgb(50, 50, 50);
+    cursor: pointer;
+}
+
+#playbtn:hover{
+    background-color: #009973;
+    color: white;
+    border: 2px solid #009973;
+    border-bottom: 6px solid #009973;
+    opacity: 90%;
+}
+
+#playbtn2{
+    height: 50px;
+    padding-left: 280px;
+    margin-top: 40px;
+    border: 2px solid black;
+    border-bottom: 6px solid rgb(50, 50, 50);
+    cursor: pointer;
+}
+
+#playbtn2:hover{
+    background-color: #008ae6;
+    color: white;
+    border: 2px solid #008ae6;
+    border-bottom: 6px solid #008ae6;
+    opacity: 90%;
+}
+
+#cover{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    z-index: 1;
+}
+
+#wellbeingtitle{
+    position: absolute;
+    margin-left: 690px;
+    margin-top: 400px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+#wellbeingtitle p{
+    font-size: 36px;
+    font-weight: 300;
+}
+
+#contentblock{
+    width: 100%;
+    height: 2100px;
+    position: absolute;
+    padding-top: 1000px;
+    background-color: rgb(250, 250, 250);
+}
+
+#contentblock h1{
+    margin-top: 10px;
+}
+
+#contentblock h3{
+    margin-top: 20px;
+}
+
+#date{
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+#contentblock p{
+    font-size: 18px;
+}
+
+#article{
+    margin-left: 250px;
+    margin-right: 750px;
+    text-align: left;
+    margin-top: 200px
+}
+
+#article2{
+    padding-top: 150px;
+    padding-bottom: 200px;
+    padding-left: 900px;
+    padding-right: 200px;
+    text-align: left;
+    margin-top: 300px;
+    background-color: rgb(80, 150, 200);
+    color: white;
+}
+
+#medi{
+    width: 23%;
+    height: 10%;
+    float: right;
+    position: absolute;
+    margin-left: 900px;
+}
+
+#medileft{
+    width: 23%;
+    height: 10%;
+    position: absolute;
+    margin-left: -600px;
+}
+
+#videobtn{
+    position: absolute;
+    background-color: rgb(30, 30, 30);
+    opacity: 80%;
+    margin-left: 810px;
+    margin-top: 400px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#playvideobtn{
+    padding-left: 30px;
+    padding-top: 25px;
+    width: 50%;
+    height: 50%;
+}
+
+#startcube{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 400px;
+    margin-top: 900px;
+    background-color: white;
+    opacity: 80%;
+}
+
+#line{
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    margin-left: 500px;
+    margin-top: 920px;
+    background-color: white;
+    opacity: 50%;
+}
+
+#secondcube{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 750px;
+    margin-top: 905px;
+    background-color: white;
+    opacity: 30%;
+}
+
+#line2{
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    margin-left: 830px;
+    margin-top: 920px;
+    background-color: white;
+    opacity: 50%;
+}
+
+#thirdcube{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 1080px;
+    margin-top: 905px;
+    background-color: white;
+    opacity: 30%;
+}
+
+#line3{
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    margin-left: 1160px;
+    margin-top: 920px;
+    background-color: white;
+    opacity: 50%;
+}
+
+#lastcube{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: 1410px;
+    margin-top: 905px;
+    background-color: white;
+    opacity: 30%;
+    border-radius: 30px;
+}
